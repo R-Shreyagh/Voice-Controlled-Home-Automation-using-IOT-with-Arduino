@@ -1,0 +1,83 @@
+#Voice Controlled Home Automation
+MINI PROJECT 1 :LED On Project
+Components Required:
+1. Arduino UNO Board
+2. One Red LED
+3. Arduino USB Cable
+Steps to Follow:
+1. Connect +ve of LED on 13 Pin on Arduino & -ve of LED on GND.
+2. Run Arduino Software.
+3. Create Sketch for LED Project.
+4. Connect the USB cable with Arduino & Computer.
+5. Click on Upload Option to download the program in Arduino.
+Program of MINI PROJECT 1:
+void setup()
+{
+pinMode (13, OUTPUT);
+}
+void loop ()
+{
+digitalWrite(13, HIGH);
+}
+MINI PROJECT 2: LED Blink Project
+Components Required:
+1. Arduino UNO Board
+2. One Red LED
+3. Arduino USB Cable
+Steps to Follow:
+1. Connect +ve of LED on 13 Pin on Arduino & -ve of LED on GND.
+2. Run Arduino Software.
+3. Create Sketch for LED Blink Project.
+4. Connect the USB cable with Arduino & Computer.
+5. Click on Upload Option to download the program in Arduino.
+Program of MINI PROJECT 2:
+void setup()
+{
+pinMode (13, OUTPUT);
+}
+void loop ()
+{
+digitalWrite(13, HIGH);
+delay(2000);
+digitalWrite(13, LOW);
+delay(2000);
+}
+REAL PROJECT : VOICE CONTROLLED HOME AUTOMATION
+Components Required:
+1. Arduino UNO Board
+2. HC-05 Bluetooth Module
+3. Three LEDs (Red, Yellow & Green)
+4. One 1K Ohm Resistors
+5. One 2K Ohm Resistor.
+6. Arduino USB Cable
+7. Breadboard
+8. Jumper Wires M-M.
+Steps to Follow:
+1. Connect -ve of Red LED on C9 & +ve on C10.
+2. Connect -ve of Yellow LED on C14 & +ve on C15.
+3. Connect -ve of Green LED on C19 & +ve on C20.
+4. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A9.
+5. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A14.
+6. Connect a jumper wire between –ve Terminal of Bread Board (GND) & A19.
+7. Connect a Jumper Wire from Arduino GND to Bread Board –ve (GND) Terminal
+Strip.
+8. Connect a jumper wire between Arduino PIN 13 & D10.
+9. Connect a jumper wire between Arduino PIN 12 & D15.
+10. Connect a jumper wire between Arduino PIN 11 & D20.
+11. Please follow the same Steps from Step 3 to Step 10 of Project 3- Reading
+Enviornmental Values on Smarphone.
+12. Open the Sketch for Voice-Activation-Arduino Program.
+13. Connect the USB cable with Arduino & Computer.
+14. Click on Upload Option to download the program in Arduino. Note: While
+downloading the program please disconnect the Rx & Tx Jumper wire from
+Arduino Board. Once you finish with the download then re connect the Rx & Tx
+Jumper Wire.
+15. Download the AMR_Voice App from Google Playstore in your Android
+Smartphone.
+16. Run the AMR_Voice App in your Android Smartphone.
+17. App will ask you to enable the Bluetooth. Allow It.
+18. Search for your Bluetooth Device HC-05-(Group No). Once Connected Red Led on
+Bluetooth module will blink once per second instead of fast blinking.
+19. Then control the devices from your Voice Commands on AMR_Voice App.
+20. Voice Commands to be used: light on, light off, fan on, fan off, ac on, ac of,
+everything on, everything of.
